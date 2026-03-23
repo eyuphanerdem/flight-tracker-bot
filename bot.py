@@ -28,14 +28,14 @@ CITIES = {
     'ankara': {'code': 'ESB', 'name': 'Ankara', 'airports': ['ESB (Esenboğa)']},
     'izmir': {'code': 'ADB', 'name': 'İzmir', 'airports': ['ADB (Adnan Menderes)']},
     'antalya': {'code': 'GNY', 'name': 'Antalya', 'airports': ['GNY (Antalya Havalimanı)']},
-    'gaziantep': {'code': 'GNY', 'name': 'Gaziantep', 'airports': ['GZT (Gaziantep)']},
+    'gaziantep': {'code': 'GZT', 'name': 'Gaziantep', 'airports': ['GZT (Gaziantep)']},
     'kayseri': {'code': 'ASR', 'name': 'Kayseri', 'airports': ['ASR (Kayseri Havalimanı)']},
     'adana': {'code': 'ADA', 'name': 'Adana', 'airports': ['ADA (Şakirpaşa)']},
-    'diyarbakır': {'code': 'DIY', 'name': 'Diyarbakır', 'airports': ['DIY (Diyarbakır Havalimanı)']},
+    'diyarbakir': {'code': 'DIY', 'name': 'Diyarbakır', 'airports': ['DIY (Diyarbakır Havalimanı)']},
     'erzurum': {'code': 'ERZ', 'name': 'Erzurum', 'airports': ['ERZ (Erzurum Havalimanı)']},
     'trabzon': {'code': 'TZX', 'name': 'Trabzon', 'airports': ['TZX (Rize-Trabzon Havalimanı)']},
-    'bursa': {'code': 'YEŞ', 'name': 'Bursa', 'airports': ['YEŞ (Yenişehir Havalimanı)']},
-    'eskişehir': {'code': 'ESK', 'name': 'Eskişehir', 'airports': ['ESK (Anadolu Havalimanı)']},
+    'bursa': {'code': 'YEH', 'name': 'Bursa', 'airports': ['YEH (Yenişehir Havalimanı)']},
+    'eskisehir': {'code': 'ESK', 'name': 'Eskişehir', 'airports': ['ESK (Anadolu Havalimanı)']},
 
     # Dünya Şehirleri - Avrupa
     'londra': {'code': 'LHR', 'name': 'Londra', 'airports': ['LHR (Heathrow)', 'LGW (Gatwick)']},
@@ -46,10 +46,10 @@ CITIES = {
     'madrid': {'code': 'MAD', 'name': 'Madrid', 'airports': ['MAD (Adolfo Suárez)']},
     'amsterdam': {'code': 'AMS', 'name': 'Amsterdam', 'airports': ['AMS (Schiphol)']},
     'viyana': {'code': 'VIE', 'name': 'Viyana', 'airports': ['VIE (Schwechat)']},
-    'zürih': {'code': 'ZRH', 'name': 'Zürih', 'airports': ['ZRH (Zürich)']},
-    'münih': {'code': 'MUC', 'name': 'Münih', 'airports': ['MUC (München)']},
-    'lizbon': {'code': 'LIS', 'name': 'Lizbon', 'airports': ['LIS (Humberto Delgado)']},
-    'prag': {'code': 'PRG', 'name': 'Prag', 'airports': ['PRG (Václav Havel)']},
+    'zurich': {'code': 'ZRH', 'name': 'Zürih', 'airports': ['ZRH (Zürich)']},
+    'munich': {'code': 'MUC', 'name': 'Münih', 'airports': ['MUC (München)']},
+    'lisbon': {'code': 'LIS', 'name': 'Lizbon', 'airports': ['LIS (Humberto Delgado)']},
+    'prague': {'code': 'PRG', 'name': 'Prag', 'airports': ['PRG (Václav Havel)']},
 
     # Dünya Şehirleri - Asya
     'dubai': {'code': 'DXB', 'name': 'Dubai', 'airports': ['DXB (Dubai International)', 'DWC (Al Maktoum)']},
@@ -57,14 +57,14 @@ CITIES = {
     'singapur': {'code': 'SIN', 'name': 'Singapur', 'airports': ['SIN (Changi)']},
     'hong kong': {'code': 'HKG', 'name': 'Hong Kong', 'airports': ['HKG (Hong Kong)']},
     'tokyo': {'code': 'TYO', 'name': 'Tokyo', 'airports': ['NRT (Narita)', 'HND (Haneda)']},
-    'şangay': {'code': 'SHA', 'name': 'Şangay', 'airports': ['PVG (Pudong)', 'SHA (Hongqiao)']},
-    'seul': {'code': 'ICN', 'name': 'Seul', 'airports': ['ICN (Incheon)', 'GMP (Gimpo)']},
+    'shanghai': {'code': 'SHA', 'name': 'Şangay', 'airports': ['PVG (Pudong)', 'SHA (Hongqiao)']},
+    'seoul': {'code': 'ICN', 'name': 'Seul', 'airports': ['ICN (Incheon)', 'GMP (Gimpo)']},
     'bali': {'code': 'DPS', 'name': 'Bali', 'airports': ['DPS (Denpasar)']},
     'delhi': {'code': 'DEL', 'name': 'Delhi', 'airports': ['DEL (Indira Gandhi)']},
     'mumbai': {'code': 'BOM', 'name': 'Mumbai', 'airports': ['BOM (Bombay)']},
 
     # Dünya Şehirleri - Amerika
-    'new york': {'code': 'NYC', 'name': 'New York', 'airports': ['JFK (Kennedy)', 'LGA (LaGuardia)', 'EWR (Newark)']},
+    'new york': {'code': 'JFK', 'name': 'New York', 'airports': ['JFK (Kennedy)', 'LGA (LaGuardia)', 'EWR (Newark)']},
     'los angeles': {'code': 'LAX', 'name': 'Los Angeles', 'airports': ['LAX (LAX)', 'BUR (Burbank)']},
     'miami': {'code': 'MIA', 'name': 'Miami', 'airports': ['MIA (Miami International)']},
     'chicago': {'code': 'ORD', 'name': 'Chicago', 'airports': ['ORD (O\'Hare)', 'MDW (Midway)']},
@@ -75,8 +75,8 @@ CITIES = {
     # Dünya Şehirleri - Afrika, Orta Doğu
     'kahire': {'code': 'CAI', 'name': 'Kahire', 'airports': ['CAI (Cairo International)']},
     'johannesburg': {'code': 'JNB', 'name': 'Johannesburg', 'airports': ['JNB (O.R. Tambo)']},
-    'teheran': {'code': 'IKA', 'name': 'Tahran', 'airports': ['IKA (Imam Khomeini)', 'MHD (Mehrabad)']},
-    'riyad': {'code': 'RUH', 'name': 'Riyad', 'airports': ['RUH (King Fahd)']},
+    'tehran': {'code': 'IKA', 'name': 'Tahran', 'airports': ['IKA (Imam Khomeini)', 'MHD (Mehrabad)']},
+    'riyadh': {'code': 'RUH', 'name': 'Riyad', 'airports': ['RUH (King Fahd)']},
     'doha': {'code': 'DOH', 'name': 'Doha', 'airports': ['DOH (Hamad International)']},
 }
 
@@ -96,7 +96,7 @@ init_db()
 
 # Kiwi API Functions
 def search_flights(from_code, to_code, departure_date):
-    """Uçak bileti ara"""
+    """Uçak bileti ara - DEBUG MODE"""
     url = "https://kiwi-com-cheap-flights.p.rapidapi.com/v2/search"
     params = {
         "from": from_code,
@@ -111,56 +111,30 @@ def search_flights(from_code, to_code, departure_date):
         "x-rapidapi-host": RAPIDAPI_HOST
     }
     
-    try:
-        response = requests.get(url, params=params, headers=headers, timeout=10)
-        if response.status_code == 200:
-            return response.json()
-    except Exception as e:
-        logger.error(f"Arama hatası: {e}")
-    
-    return None
-                'price': 2500,
-                'airlines': ['Turkish Airlines'],
-                'duration': {'total': 14400}  # 4 saat
-            },
-            {
-                'price': 2100,
-                'airlines': ['Pegasus'],
-                'duration': {'total': 16200}  # 4.5 saat
-            },
-            {
-                'price': 1800,
-                'airlines': ['Ryanair'],
-                'duration': {'total': 18000}  # 5 saat
-            }
-        ]
-    }
-    params = {
-        "from": from_code,
-        "to": to_code,
-        "dateFrom": departure_date,
-        "dateTo": departure_date,
-        "limit": 10,
-        "sort": "price"
-    }
-    headers = {
-        "x-rapidapi-key": RAPIDAPI_KEY,
-        "x-rapidapi-host": RAPIDAPI_HOST
-    }
+    logger.info(f"🔍 API İsteği: {from_code} → {to_code} ({departure_date})")
+    logger.info(f"API Headers: {headers}")
+    logger.info(f"API Params: {params}")
     
     try:
         response = requests.get(url, params=params, headers=headers, timeout=10)
+        logger.info(f"✅ API Status Code: {response.status_code}")
+        logger.info(f"📋 API Response: {response.text[:500]}")  # İlk 500 karakteri log'la
+        
         if response.status_code == 200:
-            return response.json()
+            data = response.json()
+            logger.info(f"✈️ Bilet sayısı: {len(data.get('data', []))}")
+            return data
+        else:
+            logger.error(f"❌ API Error: {response.status_code}")
+            return None
     except Exception as e:
-        logger.error(f"Arama hatası: {e}")
-    
-    return None
+        logger.error(f"❌ Arama hatası: {str(e)}")
+        return None
 
 def format_flights(flights_data):
     """Uçakları güzel formatta göster"""
     if not flights_data or 'data' not in flights_data or len(flights_data['data']) == 0:
-        return "❌ Bileti bulunamadı."
+        return "❌ Bileti bulunamadı. Lütfen başka tarih deneyin."
     
     message = "✈️ **UÇAK BİLETLERİ**\n"
     message += "═" * 40 + "\n\n"
@@ -193,12 +167,11 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 /sil - Takipten çıkar
 
 📍 **ŞEHİRLER:**
-/şehirler - Tüm şehirleri göster
+/sehirler - Tüm şehirleri göster
 /havalimanlar - Havalimanları göster
 
 💡 **HIZLI ARAMA:**
 /ara - Adım adım arama
-/arayüz - Doğrudan arayüz
 
 🌍 **DÜNYA ŞEHİRLERİ:**
 New York, Londra, Paris, Tokyo, Dubai, Bangkok, 
@@ -217,7 +190,8 @@ async def list_cities(update: Update, context: ContextTypes.DEFAULT_TYPE):
     message += "═" * 40 + "\n\n"
     
     message += "🇹🇷 **TÜRKİYE:**\n"
-    turkey_cities = [city for city in CITIES.keys() if CITIES[city]['code'] in ['IST', 'ESB', 'ADB', 'GNY', 'GZT', 'ASR', 'ADA', 'DIY', 'ERZ', 'TZX', 'YEŞ', 'ESK']]
+    turkey_codes = ['IST', 'ESB', 'ADB', 'GNY', 'GZT', 'ASR', 'ADA', 'DIY', 'ERZ', 'TZX', 'YEH', 'ESK']
+    turkey_cities = [city for city in CITIES.keys() if CITIES[city]['code'] in turkey_codes]
     for city in sorted(turkey_cities):
         message += f"• {CITIES[city]['name']} ({CITIES[city]['code']})\n"
     
@@ -247,8 +221,8 @@ async def search_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Uçak bileti arama başlat"""
     await update.message.reply_text(
         "📍 Lütfen kalkış şehrini yazınız.\n\n"
-        "**Örnek:** Istanbul, Paris, Londra, Dubai, New York\n\n"
-        "Tüm şehirler için: /şehirler"
+        "**Örnek:** istanbul, paris, londra, dubai, new york\n\n"
+        "Tüm şehirler için: /sehirler"
     )
     return FROM_CITY
 
@@ -260,7 +234,7 @@ async def from_city(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(
             f"❌ '{from_city_name}' şehri bulunamadı.\n\n"
             "Lütfen şu şehirlerden birini yazınız:\n"
-            "/şehirler komutu ile listeyi görebilirsiniz."
+            "/sehirler komutu ile listeyi görebilirsiniz."
         )
         return FROM_CITY
     
@@ -433,7 +407,7 @@ def main():
     app.add_handler(CommandHandler('rotalar', list_routes))
     app.add_handler(CommandHandler('sil', delete_route))
     
-    logger.info("🛫 Uçak Bileti Botu başlatıldı!")
+    logger.info("🛫 Uçak Bileti Botu başlatıldı! (DEBUG MODE)")
     app.run_polling()
 
 if __name__ == '__main__':
