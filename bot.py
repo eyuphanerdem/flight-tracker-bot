@@ -97,10 +97,28 @@ init_db()
 # Kiwi API Functions
 def search_flights(from_code, to_code, departure_date):
     """Uçak bileti ara"""
-    # TEST: Sabit veri dön
-    return {
-        'data': [
-            {
+    url = "https://kiwi-com-cheap-flights.p.rapidapi.com/v2/search"
+    params = {
+        "from": from_code,
+        "to": to_code,
+        "dateFrom": departure_date,
+        "dateTo": departure_date,
+        "limit": 10,
+        "sort": "price"
+    }
+    headers = {
+        "x-rapidapi-key": RAPIDAPI_KEY,
+        "x-rapidapi-host": RAPIDAPI_HOST
+    }
+    
+    try:
+        response = requests.get(url, params=params, headers=headers, timeout=10)
+        if response.status_code == 200:
+            return response.json()
+    except Exception as e:
+        logger.error(f"Arama hatası: {e}")
+    
+    return None
                 'price': 2500,
                 'airlines': ['Turkish Airlines'],
                 'duration': {'total': 14400}  # 4 saat
