@@ -389,7 +389,7 @@ def main():
     
     # Handlers
     app.add_handler(CommandHandler('start', start))
-    app.add_handler(CommandHandler('şehirler', list_cities))
+    app.add_handler(CommandHandler('sehirler', list_cities))
     app.add_handler(CommandHandler('havalimanlar', list_airports))
     app.add_handler(conv_handler)
     app.add_handler(CommandHandler('ekle', add_flight))
